@@ -1,0 +1,12 @@
+{
+  "name": "line-number-booking",
+  "version": "1.0.0",
+  "description": "ระบบจองเลข 00-99 สำหรับ LINE OA (LIFF) พร้อมหลังบ้านและ QR พร้อมเพย์",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "DEV_MODE=1 node server.js"
+  },
+  "engines": { "node": ">=18" }
+}
